@@ -15,7 +15,6 @@ public class App {
 //		CrawlerTask crawlerTask=cxt.getBean(CrawlerTask.class);
 //		crawlerTask.init();
 		
-		
 		final ContentTask contentTask=cxt.getBean(ContentTask.class);
 		final Count count=new Count();
 		count.init(contentTask.threadNum);
