@@ -51,7 +51,7 @@ public class ContentTask extends ApplicationObjectSupport{
 				logger.info("[message]"+post);
 			}
 		}catch(Exception e){
-			logger.error("[except]"+e.getMessage());
+			logger.error("[except]",e);
 		}
 		logger.info("[end]");
 	}

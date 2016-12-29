@@ -27,7 +27,7 @@ public class CrawlerTask extends ApplicationObjectSupport{
 				logger.info("[message]"+index);
 			}
 		}catch(Exception e){
-			logger.error("[except]"+e.getMessage());
+			logger.error("[except]",e);
 		}
 		logger.info("[end]");
 	}

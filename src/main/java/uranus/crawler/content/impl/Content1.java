@@ -51,7 +51,7 @@ public class Content1 implements Content{
 			postMapper.update(post);
 
 		}catch(Exception e){
-			logger.error("[except]"+e.getMessage());
+			logger.error("[except]",e);
 			throw e;
 		}
 		result=true;

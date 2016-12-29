@@ -69,7 +69,7 @@ public class Crawler1 implements Crawler {
 				}
 			}
 		}catch(Exception e){
-			logger.error("[except]"+e.getMessage());
+			logger.error("[except]",e);
 		}
 		logger.info("[end]"+cnt);
 		return cnt;
